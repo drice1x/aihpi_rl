@@ -1,0 +1,43 @@
+{
+  "base_dir": "/sc/home/patrick.wilhelm/aihpi_rl",
+  "stages": {
+    "stageA": {
+      "root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_alloc_scaling",
+      "num_rows": 81
+    },
+    "stageB": {
+      "root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_reward_extension",
+      "num_rows": 46
+    },
+    "stageC": {
+      "root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_tpprm_judge_scaling",
+      "num_rows": 0
+    },
+    "stageD": {
+      "root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_real_tpprm",
+      "num_rows": 11
+    }
+  },
+  "outputs": {
+    "stageA": {
+      "jsonl": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageA_collected.jsonl",
+      "csv": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageA_collected.csv"
+    },
+    "stageB": {
+      "jsonl": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageB_collected.jsonl",
+      "csv": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageB_collected.csv"
+    },
+    "stageC": {
+      "jsonl": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageC_collected.jsonl",
+      "csv": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageC_collected.csv"
+    },
+    "stageD": {
+      "jsonl": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageD_collected.jsonl",
+      "csv": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageD_collected.csv"
+    },
+    "all": {
+      "jsonl": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/all_stages_collected.jsonl",
+      "csv": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/all_stages_collected.csv"
+    }
+  }
+}

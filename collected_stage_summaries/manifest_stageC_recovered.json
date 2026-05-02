@@ -1,0 +1,6 @@
+{
+  "stagec_root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_tpprm_judge_scaling",
+  "num_runs_recovered": 9,
+  "jsonl": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageC_recovered.jsonl",
+  "csv": "/sc/home/patrick.wilhelm/aihpi_rl/collected_stage_summaries/stageC_recovered.csv"
+}

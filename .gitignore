@@ -1,0 +1,98 @@
+# ----------------------------
+# HPC / cache / editor junk
+# ----------------------------
+.hf_cache/
+unsloth_compiled_cache/
+*.swp
+*.swo
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ----------------------------
+# Logs / SLURM outputs
+# ----------------------------
+logs/
+*.log
+*.err
+*.out
+slurm-*.out
+
+# ----------------------------
+# Experiment run outputs
+# ----------------------------
+runs_spot_alloc_scaling/
+runs_spot_real_tpprm/
+runs_spot_reward_extension/
+runs_spot_tpprm_judge_scaling/
+
+# ----------------------------
+# Archives / large summary bundles
+# ----------------------------
+summaries.tar.gz
+*.tar
+*.tar.gz
+*.zip
+
+# ----------------------------
+# Generated grids / old grids
+# ----------------------------
+grid_current_stageB.txt
+grid_current_stageC.txt
+grid_current_stageD.txt
+grid_stageA_c23.txt
+grid_stageA_full.txt
+grid_stageA_mini.txt
+grid_stageA_pilot.txt
+
+# ----------------------------
+# Old / unused SLURM scripts
+# Keep only:
+#   run_array_stageA_full.slurm
+#   run_array_stageB_full.slurm
+#   run_array_stageC.slurm
+#   run_array_stageD.slurm
+# ----------------------------
+*.slurm
+
+!run_array_stageA_full.slurm
+!run_array_stageB_full.slurm
+!run_array_stageC.slurm
+!run_array_stageD.slurm
+
+# ----------------------------
+# Old / unused shell scripts
+# Keep only:
+#   run_grid_task_stageA_full.sh
+#   run_grid_task_stageB_full.sh
+#   run_grid_task_stageC.sh
+#   run_grid_task_stageD.sh
+# ----------------------------
+*.sh
+
+!run_grid_task_stageA_full.sh
+!run_grid_task_stageB_full.sh
+!run_grid_task_stageC.sh
+!run_grid_task_stageD.sh
+
+# ----------------------------
+# Old / unused Python/scripts
+# Keep only selected training + collection files
+# ----------------------------
+*.py
+
+!rl_polaris_posttrain_train.py
+!rl_polaris_posttrain_trainOLD.py
+!rl_posttrain_train_real_prm.py
+!rl_posttrain_train_tpprm.py
+!collect_stage_summariesNEW.py
+
+# Ignore extensionless old script/file
+rl_posttrain_train
+
+# ----------------------------
+# Keep collected summaries directory
+# ----------------------------
+!collected_stage_summaries/
+!collected_stage_summaries/**
