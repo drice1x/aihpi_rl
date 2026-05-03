@@ -3,11 +3,11 @@
   "stages": {
     "stageA": {
       "root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_alloc_scaling",
-      "num_rows": 81
+      "num_rows": 96
     },
     "stageB": {
       "root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_reward_extension",
-      "num_rows": 46
+      "num_rows": 62
     },
     "stageC": {
       "root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_tpprm_judge_scaling",
@@ -15,7 +15,7 @@
     },
     "stageD": {
       "root": "/sc/home/patrick.wilhelm/aihpi_rl/runs_spot_real_tpprm",
-      "num_rows": 11
+      "num_rows": 17
     }
   },
   "outputs": {
